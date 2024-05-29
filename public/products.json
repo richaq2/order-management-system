@@ -1,0 +1,70 @@
+[
+  {
+    "id": 205,
+    "display_id": 8,
+    "owner": 1079,
+    "name": "Product A",
+    "category": "Electronics",
+    "characteristics": "Product A Characteristics",
+    "features": "Feature A, Feature B",
+    "brand": "Brand A",
+    "sku": [
+      {
+        "id": 248,
+        "selling_price": 54,
+        "max_retail_price": 44,
+        "amount": 33,
+        "unit": "kg",
+        "quantity_in_inventory": 10,
+        "variation_quantity": 200,
+        "product": 207
+      },
+      {
+        "id": 247,
+        "selling_price": 32,
+        "max_retail_price": 32,
+        "amount": 33,
+        "unit": "kg",
+        "quantity_in_inventory": 15,
+        "variation_quantity": 400,
+        "product": 206
+      },
+      {
+        "id": 246,
+        "selling_price": 23,
+        "max_retail_price": 21,
+        "amount": 22,
+        "unit": "kg",
+        "quantity_in_inventory": 20,
+        "variation_quantity": 600,
+        "product": 205
+      }
+    ],
+    "updated_on": "2024-05-24T12:46:41.995873Z",
+    "adding_date": "2024-05-24T12:46:41.995828Z"
+  },
+  {
+    "id": 210,
+    "display_id": 9,
+    "owner": 1080,
+    "name": "Product B",
+    "category": "Furniture",
+    "characteristics": "Product B Characteristics",
+    "features": "Feature X, Feature Y",
+    "brand": "Brand B",
+    "sku": [
+      {
+        "id": 249,
+        "selling_price": 100,
+        "max_retail_price": 90,
+        "amount": 50,
+        "unit": "piece",
+        "quantity_in_inventory": 5,
+        "variation_quantity": 50,
+        "product": 210
+      }
+    ],
+    "updated_on": "2024-05-25T12:46:41.995873Z",
+    "adding_date": "2024-05-25T12:46:41.995828Z"
+  }
+]

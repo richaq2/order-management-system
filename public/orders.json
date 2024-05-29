@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "customer_id": 11908,
+      "items": [
+        {
+          "sku_id": 123,
+          "price": 54,
+          "quantity": 2
+        },
+        {
+          "sku_id": 525,
+          "price": 100,
+          "quantity": 1
+        }
+      ],
+      "paid": false,
+      "invoice_no": "Invoice - 1212121",
+      "invoice_date": "2024-07-05"
+    },
+    {
+      "id": 2,
+      "customer_id": 11909,
+      "items": [
+        {
+          "sku_id": 247,
+          "price": 32,
+          "quantity": 5
+        }
+      ],
+      "paid": true,
+      "invoice_no": "Invoice - 1212122",
+      "invoice_date": "2024-07-06"
+    }
+  ]
+  

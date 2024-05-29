@@ -1,0 +1,25 @@
+[
+    {
+      "id": 11908,
+      "name": "Ram",
+      "color": [182, 73, 99],
+      "email": "ram@example.com",
+      "pincode": "400001",
+      "location_name": "Mumbai, Maharashtra, India",
+      "type": "Regular",
+      "profile_pic": null,
+      "gst": "27AABCU9603R1ZP"
+    },
+    {
+      "id": 11909,
+      "name": "Shyam",
+      "color": [255, 192, 203],
+      "email": "shyam@example.com",
+      "pincode": "400002",
+      "location_name": "Mumbai, Maharashtra, India",
+      "type": "VIP",
+      "profile_pic": null,
+      "gst": "27AAAPZ1234Q1Z5"
+    }
+  ]
+  
