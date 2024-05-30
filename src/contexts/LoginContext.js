@@ -13,7 +13,6 @@ export const LoginProvider = ({ children }) => {
   }, []);
 
   const login = (username, password) => {
-    // Dummy login logic
     if (username === 'a' && password === 'a') {
       const user = { username };
       setUser(user);
@@ -25,7 +24,7 @@ export const LoginProvider = ({ children }) => {
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem('user');
+    localStorage.clear(); // Clear all localStorage items
   };
 
   return (

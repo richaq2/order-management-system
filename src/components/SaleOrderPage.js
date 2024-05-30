@@ -1,11 +1,10 @@
 import React from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { fetchProducts, fetchCustomers, fetchSaleOrders, createSaleOrder, addCustomer } from '../api';
-import { Button, Box, useDisclosure, Tabs, TabList, TabPanels, Tab, TabPanel, Table, Thead, Tbody, Tr, Th, Td, IconButton, Flex } from '@chakra-ui/react';
+import { Button, Box, useDisclosure, Tabs, TabList, TabPanels, Tab, TabPanel, Table, Thead, Tbody, Tr, Th, Td, Flex, useBoolean } from '@chakra-ui/react';
 import SaleOrderModal from './SaleOrderModal';
 import CustomerModal from './CustomerModal';
 import Toggle from './Toggle';
-import { Heading } from '@chakra-ui/react';
 import { useLogin } from '../contexts/LoginContext';
 
 const SaleOrderPage = () => {
@@ -95,7 +94,7 @@ const SaleOrderPage = () => {
                       </Td>
                       <Td>{order.invoice_no}</Td>
                       <Td>{new Date(order.invoice_date).toLocaleDateString()}</Td>
-                      <Td className='paid'>{order.paid ? "Yes" : "No"}</Td>
+                      <Td className={order.paid ? "paid" : "unpaid"}>{order.paid ? "Yes" : "No"}</Td>
                       <Td><button style={{
                         fontSize:'26px',
                         marginLeft:'8px'
